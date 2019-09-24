@@ -37,7 +37,7 @@ console.log(result);
 
 let mode = "normal";  // является
 let my_valu3 = 102; // является
-//let 3my_value3 = "102"; // не является
+//let 3my_value3 = "102"; // не является, так как в начале стоит число
 let __hello__ = "world"; // является
 let $$$ = "money"; // является 
-//let !0_world = true; // не является
+//let !0_world = true; // не является, так как стоит восклицательый знак
