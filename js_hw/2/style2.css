@@ -1,0 +1,22 @@
+.productWrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12% 0;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.product__btn {
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.desc {
+    min-height: 392px;
+}

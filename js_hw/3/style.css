@@ -1,0 +1,15 @@
+table {
+    /* border: 1px solid #000; */
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #000;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.black {
+    background-color: #000;
+}

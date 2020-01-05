@@ -1,0 +1,45 @@
+.btnWrap {
+    margin: 0 auto;
+    display: flex;
+}
+
+#modalBtn {
+    padding: 15px;
+    font-size: 30px;
+    margin: 20% auto;
+}
+
+.modalWrap {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+    background-color: #fefefe;
+    margin: 19% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    color: #aaa;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.close:hover {
+    cursor: pointer;
+    color: #000;
+}
